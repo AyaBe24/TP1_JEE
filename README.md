@@ -34,15 +34,7 @@ L’implémentation est **injectée dans la couche métier** selon la configurat
 
 ---
 
-## Basculement entre DAO classique et Web Service
 
-Le **basculement** entre les deux implémentations se fait grâce à une **configuration dans la classe `AppConfig.java`**.
-
-En fonction du paramètre défini, l'application utilise :
-- Soit `DaoImpl`
-- Soit `DaoImplV2`
-
----
 
 ## Fichiers clés du projet
 
